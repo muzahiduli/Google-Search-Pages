@@ -1,0 +1,123 @@
+.regularForm{
+    text-align: center;
+}
+
+#searchBar {
+    width: 582px;
+    height: 44px;
+    border-radius: 25px; 
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    text-indent: 6mm;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+#searchBar:focus {
+    outline: 0;
+}
+#bot {
+    margin: 30px;
+}
+#links {
+    margin: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#links > div {
+    margin: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#logo {
+    padding-top: 150px;
+    width: 272px;
+    height: 92px;
+    padding-bottom: 30px;
+}
+.button {
+    background-color: #f8f9fa;
+    width: 125px; 
+    height: 40px;
+    margin: 10px;
+    border: lightgray;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #f1f1f1;
+}
+
+.body {
+    margin: 0px;
+}
+
+#miniLogo {
+    width: 92px;
+    height: 33px;
+    margin: 15px;
+}
+
+#appbar {
+    padding: 25px;
+    color: #d93025;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#rows {
+    padding-top: 55px;
+    padding-left: 45px;
+    font-family: arial
+}
+
+.subrows {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.subrows > div {
+    width: 230px;
+    margin-top: 10px;
+}
+
+.subrows > input {
+    width: 520px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#advancedform {
+    text-align: left;
+}
+
+.smallText {
+    font-size: 12px;
+    color: #666;
+}
+
+.normalText {
+    font-size: 14px;
+}
+
+#advancedButton {
+    background-color: #357ae8;
+    color: #fff;
+    width: 120px; 
+    height: 30px;
+    margin: 10px;
+    border: lightgray;
+    margin-left: 639px;
+    font-size: 12px;
+}
